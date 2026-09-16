@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Airtel 5G Home WiFi Mombasa — Unlimited home internet, installed free</title>
+<meta name="description" content="Order Airtel 5G Home WiFi in Mombasa and Kilifi. Unlimited internet for your home, free delivery, installation across Nyali, Bamburi, Mtwapa, Kilifi Town, Malindi and more.">
+<meta name="theme-color" content="#E4000F">
+<meta property="og:title" content="Airtel 5G Home WiFi Mombasa">
+<meta property="og:description" content="Unlimited home internet in Mombasa and Kilifi. Free installation, same-day delivery.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   THEME TOKENS — pure red & white
+   ============================================================ */
+:root{
+  --red:#E4000F;
+  --red-deep:#B00009;
+  --red-dark:#7A0006;
+  --red-wash:#FFF3F3;
+  --red-line:#FFD2D4;
+  --white:#FFFFFF;
+  --ink:#1A1012;
+  --ink-soft:#5C4B4E;
+  --page:#FFFFFF;
+  --surface:#FFFFFF;
+  --line:#EFE2E3;
+  --shadow:0 18px 40px -24px rgba(122,0,6,.45);
+  --max:1120px;
+  --radius:14px;
+  --sans:'Archivo', 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+:root:not([data-theme="light"]){
+  @media (prefers-color-scheme: dark){
+    --page:#14090A;
+    --surface:#1E0F11;
+    --ink:#FFFFFF;
+    --ink-soft:#D8BFC2;
+    --line:#3A2023;
+    --red-wash:#260E11;
+    --red-line:#4A1F23;
+  }
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --page:#14090A;
+    --surface:#1E0F11;
+    --ink:#FFFFFF;
+    --ink-soft:#D8BFC2;
+    --line:#3A2023;
+    --red-wash:#260E11;
+    --red-line:#4A1F23;
+  }
+}
+:root[data-theme="dark"]{
+  --page:#14090A;
+  --surface:#1E0F11;
+  --ink:#FFFFFF;
+  --ink-soft:#D8BFC2;
+  --line:#3A2023;
+  --red-wash:#260E11;
+  --red-line:#4A1F23;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:78px}
+@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} *{animation:none !important; transition:none !important} }
+
+body{
+  margin:0;
+  background:var(--page);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:17px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%; display:block}
+a{color:var(--red); text-decoration:none}
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible{
+  outline:3px solid var(--red); outline-offset:3px; border-radius:6px;
+}
+.wrap{width:100%; max-width:var(--max); margin:0 auto; padding:0 22px}
+
+.skip{position:absolute; left:-9999px; top:0; background:var(--red); color:#fff; padding:12px 18px; z-index:200}
+.skip:focus{left:12px; top:12px}
+
+/* ============================ HEADER ============================ */
+.site-head{
+  position:sticky; top:0; z-index:100;
+  background:var(--surface);
+  border-bottom:1px solid var(--line);
+}
+.head-inner{display:flex; align-items:center; justify-content:space-between; gap:18px; height:72px}
+.brand{display:flex; align-items:center; gap:11px; color:var(--ink)}
+.brand-mark{
+  width:38px; height:38px; border-radius:50%;
+  background:var(--red);
+  display:grid; place-items:center; flex:none;
+  box-shadow:0 0 0 4px var(--red-wash);
+}
+.brand-mark span{color:#fff; font-weight:800; font-size:19px; line-height:1}
+.brand-text{display:flex; flex-direction:column; line-height:1.15}
+.brand-text b{font-size:16px; font-weight:800; letter-spacing:-.01em}
+.brand-text small{font-size:11.5px; color:var(--ink-soft); font-weight:500}
+
+.nav{display:flex; align-items:center; gap:26px}
+.nav a{color:var(--ink); font-size:15px; font-weight:500}
+.nav a:hover{color:var(--red)}
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:9px;
+  font-family:var(--sans); font-size:15.5px; font-weight:700;
+  padding:13px 24px; border-radius:999px; border:2px solid transparent;
+  cursor:pointer; transition:background .18s ease, color .18s ease, transform .18s ease;
+}
+.btn-red{background:var(--red); color:#fff}
+.btn-red:hover{background:var(--red-deep)}
+.btn-ghost{background:transparent; color:var(--red); border-color:var(--red)}
+.btn-ghost:hover{background:var(--red); color:#fff}
+.btn-white{background:#fff; color:var(--red)}
+.btn-white:hover{background:var(--red-wash)}
+.btn-lg{padding:16px 30px; font-size:16.5px}
+.nav-cta{padding:11px 20px; font-size:14.5px}
+.burger{display:none; background:none; border:0; padding:8px; cursor:pointer}
+.burger i{display:block; width:24px; height:2.5px; background:var(--ink); margin:5px 0; border-radius:2px}
+
+@media (max-width:900px){
+  .nav{
+    position:fixed; inset:72px 0 auto 0;
+    flex-direction:column; align-items:stretch; gap:0;
+    background:var(--surface); border-bottom:1px solid var(--line);
+    padding:8px 22px 22px; display:none;
+  }
+  .nav.open{display:flex}
+  .nav a{padding:14px 0; border-bottom:1px solid var(--line)}
+  .nav .nav-cta{margin-top:16px; border-bottom:0; text-align:center}
+  .burger{display:block}
+}
+
+/* ============================ HERO ============================ */
+.hero{
+  background:var(--white);
+  background-image:
+    radial-gradient(circle at 12% 0%, var(--red-wash) 0%, transparent 46%),
+    radial-gradient(circle at 92% 8%, var(--red-wash) 0%, transparent 40%);
+  padding:70px 0 58px;
+  border-bottom:1px solid var(--line);
+}
+:root[data-theme="dark"] .hero, :root:not([data-theme="light"]) .hero{background-color:var(--page)}
+.hero-grid{display:grid; grid-template-columns:1.15fr .85fr; gap:56px; align-items:center}
+.hero-flag{
+  display:inline-flex; align-items:center; gap:9px;
+  background:var(--red); color:#fff;
+  font-size:13.5px; font-weight:600; padding:7px 15px; border-radius:999px;
+  margin-bottom:22px;
+}
+.hero-flag em{font-style:normal; width:7px; height:7px; border-radius:50%; background:#fff; animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+h1{
+  font-size:clamp(2.35rem, 5.4vw, 3.9rem);
+  line-height:1.04; letter-spacing:-.035em; font-weight:800;
+  margin:0 0 20px;
+}
+h1 .red{color:var(--red)}
+.hero-sub{font-size:19px; color:var(--ink-soft); max-width:53ch; margin:0 0 30px}
+.hero-btns{display:flex; flex-wrap:wrap; gap:14px; margin-bottom:26px}
+.hero-notes{display:flex; flex-wrap:wrap; gap:8px 26px; font-size:14.5px; color:var(--ink-soft); font-weight:500}
+.hero-notes span{display:flex; align-items:center; gap:8px}
+.tick{width:18px; height:18px; border-radius:50%; background:var(--red); flex:none; position:relative}
+.tick::after{content:""; position:absolute; left:5.5px; top:4px; width:4px; height:8px; border:2px solid #fff; border-top:0; border-left:0; transform:rotate(42deg)}
+
+/* speed dial */
+.dial{
+  background:var(--red);
+  border-radius:24px;
+  padding:38px 34px;
+  color:#fff;
+  box-shadow:var(--shadow);
+  position:relative; overflow:hidden;
+}
+.dial::after{
+  content:""; position:absolute; right:-70px; bottom:-70px;
+  width:200px; height:200px; border-radius:50%; background:rgba(255,255,255,.09);
+}
+.dial-label{font-size:14px; font-weight:600; opacity:.9; margin-bottom:6px}
+.dial-num{font-size:clamp(3.6rem,9vw,5.2rem); font-weight:800; line-height:.95; letter-spacing:-.04em}
+.dial-num sup{font-size:.3em; font-weight:600; vertical-align:super; margin-left:6px; letter-spacing:0}
+.dial-bar{height:8px; background:rgba(255,255,255,.25); border-radius:99px; margin:22px 0 18px; overflow:hidden}
+.dial-bar i{display:block; height:100%; width:0; background:#fff; border-radius:99px; animation:fill 1.8s .25s cubic-bezier(.2,.7,.3,1) forwards}
+@keyframes fill{to{width:88%}}
+.dial-rows{display:grid; gap:11px; font-size:14.5px; position:relative; z-index:1}
+.dial-rows div{display:flex; justify-content:space-between; border-bottom:1px solid rgba(255,255,255,.22); padding-bottom:9px}
+.dial-rows div:last-child{border-bottom:0; padding-bottom:0}
+.dial-rows b{font-weight:700}
+
+@media (max-width:900px){
+  .hero{padding:48px 0 44px}
+  .hero-grid{grid-template-columns:1fr; gap:38px}
+}
+
+/* ============================ SECTIONS ============================ */
+section{padding:74px 0}
+.sec-head{max-width:640px; margin:0 0 42px}
+.sec-head h2{
+  font-size:clamp(1.85rem,3.6vw,2.6rem); line-height:1.1;
+  letter-spacing:-.03em; font-weight:800; margin:0 0 14px;
+}
+.sec-head p{font-size:17.5px; color:var(--ink-soft); margin:0}
+.center{margin-left:auto; margin-right:auto; text-align:center}
+
+/* red stat band */
+.band{background:var(--red); color:#fff; padding:52px 0}
+.band-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:28px; text-align:center}
+.band-grid b{display:block; font-size:clamp(1.7rem,3.4vw,2.3rem); font-weight:800; letter-spacing:-.03em; line-height:1.1}
+.band-grid span{font-size:14.5px; opacity:.92}
+@media (max-width:760px){ .band-grid{grid-template-columns:repeat(2,1fr); gap:30px 18px} }
+
+/* ============================ PLANS ============================ */
+.plans{display:grid; grid-template-columns:repeat(3,1fr); gap:22px; align-items:start}
+.plan{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-top:5px solid var(--red-line);
+  border-radius:var(--radius);
+  padding:30px 26px 28px;
+  display:flex; flex-direction:column;
+}
+.plan.featured{
+  border-color:var(--red); border-top:5px solid var(--red);
+  box-shadow:var(--shadow);
+  position:relative;
+}
+.plan-tag{
+  position:absolute; top:-13px; left:26px;
+  background:var(--red); color:#fff; font-size:12px; font-weight:700;
+  padding:5px 13px; border-radius:99px;
+}
+.plan h3{font-size:19px; font-weight:700; margin:0 0 4px; letter-spacing:-.01em}
+.plan .speed{color:var(--red); font-weight:700; font-size:15px; margin:0 0 18px}
+.price{display:flex; align-items:baseline; gap:6px; margin-bottom:6px}
+.price b{font-size:2.5rem; font-weight:800; letter-spacing:-.04em; line-height:1}
+.price i{font-style:normal; font-size:14.5px; color:var(--ink-soft); font-weight:500}
+.price-note{font-size:13.5px; color:var(--ink-soft); margin:0 0 22px}
+.plan ul{list-style:none; margin:0 0 26px; padding:0; display:grid; gap:11px; font-size:15.5px}
+.plan li{display:flex; gap:11px; align-items:flex-start; color:var(--ink-soft)}
+.plan li .tick{margin-top:3px}
+.plan .btn{width:100%; margin-top:auto}
+@media (max-width:900px){ .plans{grid-template-columns:1fr; gap:26px} }
+
+.plan-foot{
+  margin-top:28px; padding:18px 22px;
+  background:var(--red-wash); border:1px solid var(--red-line);
+  border-radius:var(--radius);
+  font-size:15px; color:var(--ink-soft);
+}
+.plan-foot b{color:var(--ink)}
+
+/* ============================ COVERAGE ============================ */
+.coverage{background:var(--red-wash); border-top:1px solid var(--line); border-bottom:1px solid var(--line)}
+.cov-search{position:relative; max-width:460px; margin:0 0 26px}
+.cov-search input{
+  width:100%; font-family:var(--sans); font-size:16px;
+  padding:15px 18px; border:2px solid var(--red-line); border-radius:99px;
+  background:var(--surface); color:var(--ink);
+}
+.cov-search input::placeholder{color:var(--ink-soft)}
+.cov-list{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:22px}
+.area{
+  background:var(--surface); border:1px solid var(--red-line);
+  padding:9px 17px; border-radius:99px; font-size:15px; font-weight:500;
+}
+.area.hidden{display:none}
+.cov-msg{font-size:15.5px; color:var(--ink-soft); min-height:24px}
+
+/* ============================ STEPS ============================ */
+.steps{display:grid; grid-template-columns:repeat(3,1fr); gap:26px; counter-reset:s}
+.step{padding-left:0}
+.step-n{
+  width:44px; height:44px; border-radius:50%; background:var(--red); color:#fff;
+  display:grid; place-items:center; font-weight:800; font-size:18px; margin-bottom:16px;
+}
+.step h3{font-size:18.5px; margin:0 0 8px; font-weight:700}
+.step p{margin:0; color:var(--ink-soft); font-size:16px}
+@media (max-width:760px){ .steps{grid-template-columns:1fr; gap:30px} }
+
+/* ============================ FAQ ============================ */
+.faq{max-width:780px}
+details{border-bottom:1px solid var(--line); padding:4px 0}
+summary{
+  list-style:none; cursor:pointer; padding:20px 42px 20px 0;
+  font-size:17.5px; font-weight:600; position:relative;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{
+  content:""; position:absolute; right:8px; top:26px;
+  width:11px; height:11px; border-right:2.5px solid var(--red); border-bottom:2.5px solid var(--red);
+  transform:rotate(45deg); transition:transform .22s ease;
+}
+details[open] summary::after{transform:rotate(-135deg); top:30px}
+details p{margin:0 0 20px; color:var(--ink-soft); font-size:16.5px; max-width:70ch}
+
+/* ============================ CONTACT ============================ */
+.contact{background:var(--red); color:#fff}
+.contact .sec-head h2{color:#fff}
+.contact .sec-head p{color:rgba(255,255,255,.9)}
+.contact-grid{display:grid; grid-template-columns:.9fr 1.1fr; gap:48px; align-items:start}
+.contact-list{display:grid; gap:18px; margin-bottom:30px}
+.c-item{display:flex; gap:14px; align-items:flex-start}
+.c-ico{
+  width:42px; height:42px; border-radius:12px; flex:none;
+  background:rgba(255,255,255,.16); display:grid; place-items:center;
+  font-size:19px;
+}
+.c-item b{display:block; font-size:12.5px; opacity:.85; font-weight:600; margin-bottom:2px}
+.c-item a, .c-item span{color:#fff; font-size:17px; font-weight:600}
+.c-item a:hover{text-decoration:underline}
+
+.form{background:#fff; border-radius:20px; padding:30px 28px; color:var(--ink); box-shadow:var(--shadow)}
+.form h3{margin:0 0 6px; font-size:20px; font-weight:800; letter-spacing:-.02em}
+.form > p{margin:0 0 22px; font-size:15px; color:var(--ink-soft)}
+.field{margin-bottom:16px}
+.field label{display:block; font-size:14px; font-weight:600; margin-bottom:6px; color:var(--ink)}
+.field input, .field select, .field textarea{
+  width:100%; font-family:var(--sans); font-size:16px; color:var(--ink);
+  padding:13px 15px; border:1.5px solid var(--line); border-radius:10px;
+  background:#fff;
+}
+.field textarea{min-height:88px; resize:vertical}
+.field input:focus, .field select:focus, .field textarea:focus{border-color:var(--red)}
+.form .btn{width:100%; margin-top:6px}
+.form-note{font-size:13.5px; color:var(--ink-soft); text-align:center; margin:14px 0 0}
+@media (max-width:900px){ .contact-grid{grid-template-columns:1fr; gap:36px} }
+
+/* ============================ FOOTER ============================ */
+footer{background:var(--surface); border-top:1px solid var(--line); padding:50px 0 34px}
+.foot-grid{display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:36px; margin-bottom:34px}
+.foot-grid p{color:var(--ink-soft); font-size:15.5px; margin:14px 0 0; max-width:40ch}
+.foot-col h4{font-size:14px; font-weight:700; margin:0 0 14px}
+.foot-col a{display:block; color:var(--ink-soft); font-size:15.5px; padding:5px 0}
+.foot-col a:hover{color:var(--red)}
+.legal{border-top:1px solid var(--line); padding-top:22px; font-size:13.5px; color:var(--ink-soft); display:flex; flex-wrap:wrap; gap:10px 24px; justify-content:space-between}
+@media (max-width:760px){ .foot-grid{grid-template-columns:1fr; gap:28px} }
+
+/* floating whatsapp */
+.float{
+  position:fixed; right:18px; bottom:18px; z-index:90;
+  width:58px; height:58px; border-radius:50%;
+  background:var(--red); color:#fff;
+  display:grid; place-items:center; font-size:26px;
+  box-shadow:0 10px 26px -8px rgba(122,0,6,.6);
+}
+.float:hover{background:var(--red-deep)}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark"><span>A</span></span>
+      <span class="brand-text">
+        <b>Airtel 5G Home WiFi</b>
+        <small>Mombasa &amp; Kilifi · Authorised dealer</small>
+      </span>
+    </a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><i></i><i></i><i></i></button>
+    <nav class="nav" id="nav">
+      <a href="#pricing">Packages</a>
+      <a href="#coverage">Coverage</a>
+      <a href="#how">How to order</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn btn-red nav-cta" id="navCta" href="#contact">Order now</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="hero-flag"><em></em> Same-day delivery across Mombasa & Kilifi</span>
+      <h1>Unlimited home internet, <span class="red">delivered and set up today.</span></h1>
+      <p class="hero-sub">Airtel 5G Home WiFi connects your whole house without cables, without digging, and without waiting weeks for an installation date. Order in the morning, stream by evening.</p>
+      <div class="hero-btns">
+        <a class="btn btn-red btn-lg" id="heroWa" href="#contact">Order on WhatsApp</a>
+        <a class="btn btn-ghost btn-lg" href="#pricing">See packages</a>
+      </div>
+      <div class="hero-notes">
+        <span><i class="tick"></i> Free installation</span>
+        <span><i class="tick"></i> No cables or trenching</span>
+        <span><i class="tick"></i> Pay with M-PESA</span>
+      </div>
+    </div>
+    <aside class="dial">
+      <div class="dial-label">Typical evening speed, Nyali</div>
+      <div class="dial-num" id="speedNum">0<sup>Mbps</sup></div>
+      <div class="dial-bar"><i></i></div>
+      <div class="dial-rows">
+        <div><span>Devices connected</span><b>Up to 32</b></div>
+        <div><span>Setup time at your home</span><b>Under 20 min</b></div>
+        <div><span>Contract</span><b>None</b></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<div class="band">
+  <div class="wrap band-grid">
+    <div><b>5G</b><span>Router and SIM included</span></div>
+    <div><b>Unlimited</b><span>No data caps on monthly plans</span></div>
+    <div><b>Free</b><span>Delivery and installation</span></div>
+    <div><b>7 days</b><span>Support, 8am – 8pm</span></div>
+  </div>
+</div>
+
+<section id="pricing">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Pick a package</h2>
+      <p>All packages are unlimited and include the 5G router, the SIM, delivery and setup. Change or pause your package any month.</p>
+    </div>
+    <div class="plans" id="plans"></div>
+    <div class="plan-foot">
+      <b>Paying for the first time?</b> You pay a one-time setup fee (router & WiFi equipment) plus a separate Ksh 1,000 installation fee, then your monthly package price starts from month two. Renewals are done straight from your phone with M-PESA.
+    </div>
+  </div>
+</section>
+
+<section class="coverage" id="coverage">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Are you inside our coverage?</h2>
+      <p>Type your estate or area below. If it's not listed, message us anyway — we test new locations every week and coverage keeps expanding.</p>
+    </div>
+    <div class="cov-search">
+      <input type="search" id="covInput" placeholder="Type your area, e.g. Bamburi" aria-label="Search your area">
+    </div>
+    <div class="cov-list" id="covList"></div>
+    <p class="cov-msg" id="covMsg"></p>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Getting connected takes three steps</h2>
+      <p>No paperwork queues, no office visits. Everything happens over WhatsApp and at your door.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-n">1</div>
+        <h3>Send us your location</h3>
+        <p>Message us your estate and house or apartment name. We confirm 5G coverage in a few minutes and tell you the best package for your household.</p>
+      </div>
+      <div class="step">
+        <div class="step-n">2</div>
+        <h3>Pay with M-PESA</h3>
+        <p>Choose your package and pay the first month. You'll get an M-PESA confirmation and a delivery time window on the same day.</p>
+      </div>
+      <div class="step">
+        <div class="step-n">3</div>
+        <h3>We set it up at your home</h3>
+        <p>Our technician brings the router, finds the strongest signal spot in your house, connects your devices and shows you how to renew.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="background:var(--red-wash); border-top:1px solid var(--line); border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Questions people ask before ordering</h2>
+      <p>If yours isn't here, send it on WhatsApp and you'll get a straight answer.</p>
+    </div>
+    <div class="faq">
+      <details open>
+        <summary>Is the internet really unlimited?</summary>
+        <p>Yes. The monthly packages have no data cap, so you can stream, work and game without counting bundles. During very busy hours speeds can vary depending on how far you are from the 5G mast.</p>
+      </details>
+      <details>
+        <summary>Do I need a phone line, cable or trenching?</summary>
+        <p>No. The router connects over the 5G network, so nothing is dug up and no cable is pulled to your house. You just need power and to be inside a covered area.</p>
+      </details>
+      <details>
+        <summary>How much does installation cost?</summary>
+        <p>Nothing. Delivery and setup inside Mombasa and Kilifi are free — you only pay the setup and installation fees shown in the packages above.</p>
+      </details>
+      <details>
+        <summary>How long does delivery take?</summary>
+        <p>Orders confirmed before 4pm are usually delivered the same day within Mombasa Island, Nyali, Bamburi and Mtwapa. Kilifi Town, Malindi and other areas further out are next day.</p>
+      </details>
+      <details>
+        <summary>Can I move the router to another house?</summary>
+        <p>Yes. The router is portable — carry it to your new home, plug it in, and as long as the area has 5G coverage it will work. Tell us before you move and we'll check the new address for you.</p>
+      </details>
+      <details>
+        <summary>How do I renew each month?</summary>
+        <p>Renew from your phone with M-PESA using the line that came with your router. We send a reminder before your package expires and can renew on your behalf if you prefer.</p>
+      </details>
+      <details>
+        <summary>What if the signal is weak in my house?</summary>
+        <p>Our technician tests several spots during installation and mounts the router where the signal is strongest. If it drops later, call us and we'll come back and reposition it at no cost.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Order your connection</h2>
+      <p>Fill in the form and it opens WhatsApp with your details ready to send — or just call us directly.</p>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <div class="contact-list" id="contactList"></div>
+        <a class="btn btn-white btn-lg" id="sideWa" href="#">Chat with us on WhatsApp</a>
+      </div>
+      <div class="form">
+        <h3>Request installation</h3>
+        <p>Takes under a minute. We reply during working hours, usually within a few minutes.</p>
+        <div class="field">
+          <label for="fName">Your name</label>
+          <input id="fName" type="text" placeholder="e.g. Amina Said" autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="fPhone">Phone number</label>
+          <input id="fPhone" type="tel" placeholder="07XX XXX XXX" autocomplete="tel">
+        </div>
+        <div class="field">
+          <label for="fArea">Area / estate</label>
+          <input id="fArea" type="text" placeholder="e.g. Bamburi, Kiembeni">
+        </div>
+        <div class="field">
+          <label for="fPlan">Package</label>
+          <select id="fPlan"></select>
+        </div>
+        <div class="field">
+          <label for="fMsg">Anything else? (optional)</label>
+          <textarea id="fMsg" placeholder="House name, floor, preferred delivery time…"></textarea>
+        </div>
+        <button class="btn btn-red btn-lg" id="sendBtn" type="button">Send on WhatsApp</button>
+        <p class="form-note" id="formNote">Your details open in WhatsApp — nothing is stored on this site.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#top">
+          <span class="brand-mark"><span>A</span></span>
+          <span class="brand-text">
+            <b>Airtel 5G Home WiFi</b>
+            <small>Mombasa &amp; Kilifi · Authorised dealer</small>
+          </span>
+        </a>
+        <p>Home internet delivered, installed and supported across Mombasa and Kilifi Counties by a local authorised Airtel dealer.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Site</h4>
+        <a href="#pricing">Packages</a>
+        <a href="#coverage">Coverage</a>
+        <a href="#how">How to order</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="foot-col" id="footContact">
+        <h4>Talk to us</h4>
+      </div>
+    </div>
+    <div class="legal">
+      <span id="copy"></span>
+      <span>Independent authorised dealer. Airtel and the Airtel logo are trademarks of Airtel Networks Kenya. Prices and speeds are subject to Airtel's terms.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="float" id="floatWa" href="#contact" aria-label="Chat on WhatsApp">✆</a>
+
+<script>
+/* ==========================================================
+   ▼▼▼  EDIT EVERYTHING BELOW — THIS IS THE ONLY PART YOU
+        NEED TO CHANGE TO MAKE THE SITE YOURS  ▼▼▼
+   ========================================================== */
+const CONFIG = {
+  businessName: "Airtel 5G Home WiFi Mombasa",
+
+  // Use international format, no +, no spaces. 254 = Kenya.
+  whatsapp: "254753399965",
+  phoneDisplay: "0750 067 556",
+  phoneDial:    "+254750067556",
+  email:        "sindaniedah716@gmail.com",
+  email2:       "nickcharltone@gmail.com",
+  careNumber:   "100",
+  officeLine1:  "Mombasa & Kilifi Counties",
+  officeLine2:  "Mon – Sun, 8:00am – 8:00pm",
+
+  // Packages. Setup fee covers the router and WiFi equipment, charged once on installation day.
+  // Installation fee is separate — a fixed charge for the technician visit, same for every package.
+  // Monthly price is what customers pay to renew from month two onwards.
+  installFee: "1,000",
+  plans: [
+    { name:"Home 15",  speed:"15 Mbps", price:"1,999", setup:"3,000", note:"Good for a small household — browsing, WhatsApp, one TV, 8–12 devices.",
+      features:["Unlimited data","Router & WiFi included on setup","Up to 12 devices"], featured:false },
+    { name:"Home 30",  speed:"30 Mbps", price:"2,999", setup:"4,000", note:"Most ordered. Comfortable for a full house with more devices online at once.",
+      features:["Unlimited data","Router & WiFi included on setup","Up to 20 devices","HD streaming on multiple screens"], featured:true }
+  ],
+
+  // Areas you deliver to — Mombasa and Kilifi.
+  areas:["Nyali","Bamburi","Shanzu","Mtwapa","Kiembeni","Bombolulu","Kisauni","Tudor",
+         "Mvita","Kizingo","Ganjoni","Makupa","Changamwe","Chaani","Miritini","Mikindani",
+         "Port Reitz","Likoni","Mtongwe","Shelly Beach","Vescon","Utange","Mishomoroni","Magongo",
+         "Kilifi Town","Mtwapa Kilifi","Malindi","Watamu","Bamba","Mariakani","Kaloleni","Vipingo"]
+};
+/* ==========================================================
+   ▲▲▲  STOP EDITING HERE — the code below builds the page ▲▲▲
+   ========================================================== */
+
+const waLink = (text) =>
+  "https://wa.me/" + CONFIG.whatsapp + "?text=" + encodeURIComponent(text);
+
+/* ---- packages ---- */
+const plansEl = document.getElementById("plans");
+const planSelect = document.getElementById("fPlan");
+CONFIG.plans.forEach((p, i) => {
+  const card = document.createElement("div");
+  card.className = "plan" + (p.featured ? " featured" : "");
+  card.innerHTML =
+    (p.featured ? '<span class="plan-tag">Most ordered</span>' : "") +
+    "<h3>" + p.name + "</h3>" +
+    '<p class="speed">' + p.speed + "</p>" +
+    '<div class="price"><b>Ksh ' + p.price + "</b><i>/ month</i></div>" +
+    '<p class="price-note">' + p.note + " First time: Ksh " + p.setup + " setup (router & WiFi) + Ksh " + CONFIG.installFee + " installation fee.</p>" +
+    "<ul>" + p.features.map(f => '<li><i class="tick"></i>' + f + "</li>").join("") + "</ul>";
+
+  const a = document.createElement("a");
+  a.className = "btn " + (p.featured ? "btn-red" : "btn-ghost");
+  a.textContent = "Order " + p.name;
+  a.href = waLink("Hello " + CONFIG.businessName + ", I would like to order the " + p.name +
+                  " package (" + p.speed + ", Ksh " + p.price + " per month, Ksh " + p.setup + " setup fee, Ksh " + CONFIG.installFee + " installation fee). My area is: ");
+  a.target = "_blank"; a.rel = "noopener";
+  card.appendChild(a);
+  plansEl.appendChild(card);
+
+  const opt = document.createElement("option");
+  opt.value = p.name + " — Ksh " + p.price + "/month";
+  opt.textContent = p.name + " — Ksh " + p.price + "/month";
+  if (p.featured) opt.selected = true;
+  planSelect.appendChild(opt);
+});
+
+/* ---- coverage ---- */
+const covList = document.getElementById("covList");
+const covMsg  = document.getElementById("covMsg");
+CONFIG.areas.forEach(a => {
+  const s = document.createElement("span");
+  s.className = "area"; s.textContent = a;
+  s.dataset.name = a.toLowerCase();
+  covList.appendChild(s);
+});
+document.getElementById("covInput").addEventListener("input", e => {
+  const q = e.target.value.trim().toLowerCase();
+  let shown = 0;
+  covList.querySelectorAll(".area").forEach(el => {
+    const hit = !q || el.dataset.name.includes(q);
+    el.classList.toggle("hidden", !hit);
+    if (hit) shown++;
+  });
+  if (!q) { covMsg.textContent = ""; return; }
+  covMsg.textContent = shown
+    ? "Covered — " + shown + " matching area" + (shown > 1 ? "s" : "") + ". Order and we'll deliver today."
+    : "Not on the list yet. Message us with your exact location and we'll test it for you.";
+});
+
+/* ---- contact blocks ---- */
+const items = [
+  ["✆","Call or WhatsApp", CONFIG.phoneDisplay, "tel:" + CONFIG.phoneDial],
+  ["✉","Email", CONFIG.email + " or " + CONFIG.email2, null],
+  ["⌂","Where to find us", CONFIG.officeLine1, null],
+  ["◷","Working hours", CONFIG.officeLine2, null],
+  ["☏","Airtel Customer Care", CONFIG.careNumber, "tel:" + CONFIG.careNumber]
+];
+const cl = document.getElementById("contactList");
+items.forEach(([ico, label, value, href]) => {
+  const d = document.createElement("div");
+  d.className = "c-item";
+  d.innerHTML = '<div class="c-ico">' + ico + "</div><div><b>" + label + "</b>" +
+    (href ? '<a href="' + href + '">' + value + "</a>" : "<span>" + value + "</span>") + "</div>";
+  cl.appendChild(d);
+});
+
+const fc = document.getElementById("footContact");
+[[CONFIG.phoneDisplay, "tel:" + CONFIG.phoneDial],
+ [CONFIG.email, "mailto:" + CONFIG.email],
+ [CONFIG.email2, "mailto:" + CONFIG.email2],
+ ["Airtel Customer Care: " + CONFIG.careNumber, "tel:" + CONFIG.careNumber],
+ ["WhatsApp us", waLink("Hello " + CONFIG.businessName + ", I'd like to know more about Airtel 5G Home WiFi.")]
+].forEach(([t, h]) => {
+  const a = document.createElement("a");
+  a.href = h; a.textContent = t;
+  if (h.startsWith("http")) { a.target = "_blank"; a.rel = "noopener"; }
+  fc.appendChild(a);
+});
+
+/* ---- whatsapp buttons ---- */
+const generic = waLink("Hello " + CONFIG.businessName + ", I'd like to order Airtel 5G Home WiFi. My area is: ");
+["heroWa","sideWa","floatWa","navCta"].forEach(id => {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.href = generic; el.target = "_blank"; el.rel = "noopener";
+});
+
+/* ---- order form ---- */
+document.getElementById("sendBtn").addEventListener("click", () => {
+  const name  = document.getElementById("fName").value.trim();
+  const phone = document.getElementById("fPhone").value.trim();
+  const area  = document.getElementById("fArea").value.trim();
+  const plan  = document.getElementById("fPlan").value;
+  const extra = document.getElementById("fMsg").value.trim();
+  const note  = document.getElementById("formNote");
+
+  if (!name || !phone || !area) {
+    note.textContent = "Add your name, phone number and area so we can reach you.";
+    note.style.color = "var(--red)";
+    return;
+  }
+  note.textContent = "Opening WhatsApp…";
+  note.style.color = "var(--ink-soft)";
+
+  const msg =
+    "New order — " + CONFIG.businessName + "\n" +
+    "Name: " + name + "\n" +
+    "Phone: " + phone + "\n" +
+    "Area: " + area + "\n" +
+    "Package: " + plan +
+    (extra ? "\nNotes: " + extra : "");
+  window.open(waLink(msg), "_blank", "noopener");
+});
+
+/* ---- menu ---- */
+const burger = document.getElementById("burger");
+const nav = document.getElementById("nav");
+burger.addEventListener("click", () => {
+  const open = nav.classList.toggle("open");
+  burger.setAttribute("aria-expanded", open ? "true" : "false");
+});
+nav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
+  nav.classList.remove("open");
+  burger.setAttribute("aria-expanded", "false");
+}));
+
+/* ---- one-time hero count-up ---- */
+(function () {
+  const el = document.getElementById("speedNum");
+  const target = 42;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    el.innerHTML = target + "<sup>Mbps</sup>"; return;
+  }
+  let n = 0;
+  const step = () => {
+    n += Math.max(1, Math.round((target - n) / 8));
+    if (n >= target) n = target;
+    el.innerHTML = n + "<sup>Mbps</sup>";
+    if (n < target) requestAnimationFrame(step);
+  };
+  setTimeout(() => requestAnimationFrame(step), 250);
+})();
+
+/* ---- footer year ---- */
+document.getElementById("copy").textContent =
+  "© " + new Date().getFullYear() + " " + CONFIG.businessName + ". All rights reserved.";
+</script>
+</body>
+</html>
