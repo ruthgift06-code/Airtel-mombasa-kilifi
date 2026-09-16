@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Airtel 5G Home WiFi Mombasa — Unlimited home internet, installed free</title>
+<title>Airtel 5G Home WiFi Mombasa — Unlimited home internet, delivered free</title>
 <meta name="description" content="Order Airtel 5G Home WiFi in Mombasa and Kilifi. Unlimited internet for your home, free delivery, installation across Nyali, Bamburi, Mtwapa, Kilifi Town, Malindi and more.">
 <meta name="theme-color" content="#E4000F">
 <meta property="og:title" content="Airtel 5G Home WiFi Mombasa">
-<meta property="og:description" content="Unlimited home internet in Mombasa and Kilifi. Free installation, same-day delivery.">
+<meta property="og:description" content="Unlimited home internet in Mombasa and Kilifi. Free delivery, same-day service.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -201,6 +201,21 @@ h1 .red{color:var(--red)}
   .hero-grid{grid-template-columns:1fr; gap:38px}
 }
 
+/* ============================ BENEFITS ============================ */
+.benefits{display:grid; grid-template-columns:repeat(3,1fr); gap:22px}
+.benefit{
+  background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+  padding:26px 24px; display:flex; gap:16px; align-items:flex-start;
+}
+.benefit-ico{
+  width:46px; height:46px; border-radius:12px; flex:none;
+  background:var(--red-wash); color:var(--red);
+  display:grid; place-items:center; font-size:21px;
+}
+.benefit p{margin:0; font-size:16px; color:var(--ink); font-weight:600; line-height:1.45}
+@media (max-width:900px){ .benefits{grid-template-columns:1fr 1fr; gap:16px} }
+@media (max-width:600px){ .benefits{grid-template-columns:1fr} }
+
 /* ============================ SECTIONS ============================ */
 section{padding:74px 0}
 .sec-head{max-width:640px; margin:0 0 42px}
@@ -390,17 +405,17 @@ footer{background:var(--surface); border-top:1px solid var(--line); padding:50px
         <a class="btn btn-ghost btn-lg" href="#pricing">See packages</a>
       </div>
       <div class="hero-notes">
-        <span><i class="tick"></i> Free installation</span>
+        <span><i class="tick"></i> Free delivery</span>
         <span><i class="tick"></i> No cables or trenching</span>
         <span><i class="tick"></i> Pay with M-PESA</span>
       </div>
     </div>
     <aside class="dial">
-      <div class="dial-label">Typical evening speed, Nyali</div>
-      <div class="dial-num" id="speedNum">0<sup>Mbps</sup></div>
+      <div class="dial-label">Choose your speed</div>
+      <div class="dial-num" id="speedNum">15<sup>& 30 Mbps</sup></div>
       <div class="dial-bar"><i></i></div>
       <div class="dial-rows">
-        <div><span>Devices connected</span><b>Up to 32</b></div>
+        <div><span>Devices connected</span><b>Up to 20</b></div>
         <div><span>Setup time at your home</span><b>Under 20 min</b></div>
         <div><span>Contract</span><b>None</b></div>
       </div>
@@ -416,6 +431,23 @@ footer{background:var(--surface); border-top:1px solid var(--line); padding:50px
     <div><b>7 days</b><span>Support, 8am – 8pm</span></div>
   </div>
 </div>
+
+<section id="benefits">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Why homes across Mombasa & Kilifi choose us</h2>
+      <p>Straightforward internet that works the way your household actually uses it.</p>
+    </div>
+    <div class="benefits">
+      <div class="benefit"><div class="benefit-ico">📶</div><p>Enjoy smooth and dependable connectivity</p></div>
+      <div class="benefit"><div class="benefit-ico">💰</div><p>Flexible plans to suit your budget</p></div>
+      <div class="benefit"><div class="benefit-ico">🔋</div><p>Stay connected even during blackouts — comes with its own power bank</p></div>
+      <div class="benefit"><div class="benefit-ico">📱</div><p>Share WiFi with phones, laptops, TVs and more</p></div>
+      <div class="benefit"><div class="benefit-ico">📍</div><p>Stay connected in many locations</p></div>
+      <div class="benefit"><div class="benefit-ico">🎮</div><p>Great for streaming, gaming and online meetings</p></div>
+    </div>
+  </div>
+</section>
 
 <section id="pricing">
   <div class="wrap">
@@ -487,7 +519,7 @@ footer{background:var(--surface); border-top:1px solid var(--line); padding:50px
       </details>
       <details>
         <summary>How much does installation cost?</summary>
-        <p>Nothing. Delivery and setup inside Mombasa and Kilifi are free — you only pay the setup and installation fees shown in the packages above.</p>
+        <p>Delivery to your home is free. You pay a one-time setup fee for the router and WiFi equipment, plus a separate Ksh 1,000 installation fee — both shown next to each package above. There's nothing extra after that.</p>
       </details>
       <details>
         <summary>How long does delivery take?</summary>
@@ -755,23 +787,6 @@ nav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
   nav.classList.remove("open");
   burger.setAttribute("aria-expanded", "false");
 }));
-
-/* ---- one-time hero count-up ---- */
-(function () {
-  const el = document.getElementById("speedNum");
-  const target = 42;
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    el.innerHTML = target + "<sup>Mbps</sup>"; return;
-  }
-  let n = 0;
-  const step = () => {
-    n += Math.max(1, Math.round((target - n) / 8));
-    if (n >= target) n = target;
-    el.innerHTML = n + "<sup>Mbps</sup>";
-    if (n < target) requestAnimationFrame(step);
-  };
-  setTimeout(() => requestAnimationFrame(step), 250);
-})();
 
 /* ---- footer year ---- */
 document.getElementById("copy").textContent =
